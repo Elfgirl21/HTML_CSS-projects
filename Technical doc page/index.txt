@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation Page</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Algebra Basics</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Definitions">Definitions</a></li>
+        <li><a class="nav-link" href="#Examples">Examples</a></li>
+        <li><a class='nav-link' href="#Solving_Equations">Solving Equations</a></li>
+        <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>Welcome to Algebra Basics. Here you will explore the basics concepts of Algebra and practice some simple equations.</p>
+         <p>First, let's explore some definitions.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Definitions">
+        <header>Definitions</header>
+        <article>
+          <p>Let's start with defining some of the most common terms used in algebra: </p>
+          <ul>
+           <li><b>Variable:</b> A variable is an unknown value, usually represented by a letter. Example: x or y.</li>
+           <li><b>Expression:</b> A mathematical object. For the purpose for this page, an expression is one part of an equation. It is not an equation.</li>
+           <li><b>Equation:</b> An equation is a mathatical statement that the values of two mathematical expressions are equal.
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Examples">
+        <header>Examples</header>
+        <article>
+          <p>I don't know about you but sometimes it's easier to understand definitions when you have examples to look at, especially in mathematics. Here are a few examples of the above terms: </p>
+          <p>Example 1: <code>x + 12 = 20</code></p>
+          <p>In this example, we have: </p>
+          <ul>
+            <li>The variable is 'x' in this case.</li>
+            <li>There is two expressions: 'x + 12' and '20' in this example.</li>
+<li>The entire example is an equation, 'x + 12 = 20'.</li>
+          </ul>
+          <p>For the next example, identify what is the variable is, the expressions and the equation on your own: <code> y - 6 = 14</code>
+          <p>Variable: </p>
+          <p>Expression(s): </p>
+          <p>Equation: </p>
+        </article>
+      </section>
+      <section class="main-section" id="Solving_Equations">
+        <header>Solving Equations</header>
+        <article>
+          <p>The primary use for Algebra is to determine an unknow value, the "variable". Using the information provided above, let's used our first example to find the missing value or variable 'x'.</p>
+          <p><code>x + 12 = 20</code></p>
+          <p>Remember, in an equation, both sides are equal to each other. The first step in solving any equation is getting the variable by itself on one side of the equal. You are manipulating the two expressions to do this. So in this example, we want to remove '+ 12' so that 'x' is by itself. To do this, we will <em> subtract 12</em>, because subtraction is the opposite operation to addition. Note: if we perform one operation on one side of the equation we must do the same to make sure the equation is still true. Now let's see it in action:<br /><br/>
+          <code>x + 12 -12 = 20 -12</code>
+          <p>Looks messy right? Well, we haven't completed the operations yet. We can <b>simplify</b> the equation to make it easier to read by performing the operations '12-12' and '20-12'. The result is: </p>
+          <code>x = 6</code>
+          <p>Now we have our solution to the equation!</p>
+          <p>I'll do the next example with you: <code> y - 6 = 14</code></p>
+          <p>Again, we know that both sides of the equation are equal and we have to get the variable or in this case 'y' by itself to find it's missing value. So we want to remove ' - 6' on both sides of the equation to get 'y' by itself. This time 6 is subtracting from y not adding like in the last example. And the opposite operation of subtraction is addition. Thus we will add 6 to both sides of the equation:</p>
+          <code> y - 6 = 14
+            &nbsp&nbsp + 6 &nbsp + 6&nbsp&nbsp&nbsp
+            y = 20</code>
+          <p>Look! Now we have the missing value for 'y' which is 20!</p>
+          <p>Now you try on your own: <code> z + 15 = 25</code></p>
+        </article>
+      </section>
+      <section class="main-section" id="Conclusion">
+        <header>Conclusion</header>
+        <article>
+          <p>Now let's recap what you have learned so far:</p>
+          <ul>
+            <li><b>Variable:</b> A variable is represented by a letter and is an unknown value or missing value in an equation.</li>
+            <li><b>Expression:</b> An expression consist of a variable and a constant or number.</li>
+            <li><b>Equation:</b> An equation is a mathematical statements that consist of two expressions that are equal to each other.</li>
+         </ul>
+         <p>So you have learned the basics of Algebra and now you're ready to solve more complex problems where you will other operations in PEMDAS: Parathness, Exponents, Multiplcation, Division, Addition, and Substration. Go find some equations to solve!</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+
