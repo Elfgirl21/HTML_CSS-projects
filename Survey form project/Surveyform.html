@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href="styles.css"/>
+  <title>FreeCodeCamp Survey Form</title>
+  </head>
+  <body>
+      <header class='header'> 
+        <h1 id='title'>freeCodeCamp Survey Form<h1>
+        <p id='description'>Educating future developers.</p>
+      </header>
+      <form method='post' action='https://survey-form.freecodecamp.rocks/' id='survey-form'>
+        <fieldset>
+          <label id='name-label' for='name'>What is your name?
+            <input type ='text' id='name' required placeholder='Ente your name'/>
+          </label>
+          <label id='email-label'>Your email: 
+            <input type='email' id='email' required placeholder='yourname@msn.com'/>
+          </label>
+          <label id='number-label'>Your age: 
+            <input type='number' id='number' min='12' max='100' placeholder='18'/>
+          </label>
+          <label> Are you interested in coding?
+            <select id='dropdown'>
+              <option value =''>(select one)</option>
+              <option value='1'>Yes</option>
+              <option value ='2'>No</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>
+            <input type='radio' name='a' value='b'class='inline'/>a</label>
+          <label>
+            <input type='radio' name='a'value='b' class='inline'/>b</label>
+        </fieldset>
+        <fieldset>
+          <label>
+            <input type='checkbox' value='c' class='inline'/>c</label>
+          <label>
+            <input type='checkbox' value='d' class='inline'/>d</label>
+        </fieldset>
+          <label class='add'>Additional comments<textarea rows='5' cols='30'></textarea></label>
+        <fieldset>
+          <button type='submit' class='submit-button' id='submit'>Submit</button>
+        </fieldset>
+      </form>
+  </body>
+</html>
