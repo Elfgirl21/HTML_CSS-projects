@@ -1,0 +1,42 @@
+html {
+  font-size: 12px
+}
+body {
+  font-size:1.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: none;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: #477ca7
+}
+
+a:visited {
+  color: #74638f;
+}
+
+main {
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #add8e6;
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption {
+  padding-top: 5px; 
+  font-family: Ariel;
+}
