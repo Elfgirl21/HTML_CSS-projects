@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset ='utf-8'>
+    <link rel='sylesheet' href='styles.css'/>
+    <title>Ludwig Van Beethoven</title>
+  </head>
+  <main id='main'>
+    <h1 id='title'>Ludwig Von Beethoven</h1>
+    <div id='img-div'>
+      <img id='image' src='https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg?download'>
+      <figcaption id ='img-caption'>Protrait of Beethoven by  Joseph Karl Stieler, 1820</figcaption>
+    </div>
+    <section id='tribute-info'>
+      <h3>Beethoven is one of the most regonized Composer in classical music.</h3>
+      <p>Beethoven is a famous German composer who was deaf. His musically talents very obvious at a early age and his father was cruel, teaching himself. Beethoven would later be taught by another composer. 
+    </section>
+    <p><em> To learn more about Beethoven
+    <a id='tribute-link' target='_blank' href='https://en.wikipedia.org/wiki/Ludwig_van_Beethoven'/>Wikipedia</a></em></p>
+  </main>
+</html>
+
+
+CSS sheet
+html {
+  font-size: 12px
+}
+body {
+  font-size:1.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: none;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: #477ca7
+}
+
+a:visited {
+  color: #74638f;
+}
+
+main {
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #add8e6;
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption {
+  padding-top: 5px; 
+  font-family: Ariel;
+}
+
+
+** end of undefined **
+
